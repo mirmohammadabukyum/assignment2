@@ -1,0 +1,96 @@
+
+body{
+    margin: 0;
+}
+section{
+    background-color: white;
+    background-image: url(../images/bg1.png);
+    height: 100vh;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+header{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 10px;
+}
+div{
+    width: 30%;
+    float: left;
+}
+.logo{
+    color: #5146af;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    width: 50%;
+    float: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    }
+nav ul li{
+    list-style-type: none;
+    display: inline-block;}
+nav ul li a{
+    text-decoration: none;
+    color: #4b41a4;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 13px 17px;
+    display: block;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    color: #ffffff;
+    background-color: #5146af;
+}
+.contain h2{
+    color: #123B4F;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-left: 18px;
+    /* margin: 58px; */
+    padding-top: 110px;
+    padding-bottom: -21px;
+    margin-bottom: -49px;
+}
+.contain h4{
+    color: #FCCA6D;
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-left: 18px;
+    padding-top: 0px;
+    margin-bottom: -8px;
+}
+.contain p{
+    color: #ACACAC;
+    padding-left: 20px;
+}
+
+.contain ul{}
+.contain ul li{
+    list-style-type: none;
+    border: 1px solid #7b74d3;
+    border-radius:30px;
+    display:inline-block;
+    padding: 11px 15px;
+    margin-left: -25px;
+}
+.contain ul a{
+    text-decoration: none;
+    color: #5146AF;
+}
+.contain ul a:hover{
+    text-decoration: none;
+    color: white;
+}
+.contain ul li:hover{
+    background-color: #7762EF;
+}
